@@ -1,7 +1,7 @@
 pipeline {
   environment {
     VERCEL_PROJECT_NAME = 'learn-jenkins-app'
-    VERCEL_TOKEN = credentials('QFZypzyp0CPm1uvdwTRIvtEX') // ดึงจาก Jenkins
+    VERCEL_TOKEN = credentials('devops20-vercel-token') // ดึงจาก Jenkins
   }
   agent {
     kubernetes {
